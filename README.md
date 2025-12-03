@@ -40,15 +40,15 @@ Users authenticate through **AWS Cognito** and securely upload/download files us
 
 ## 🚀 2. Features
 
-| Feature | Status |
-|---------|--------|
-| Cognito authentication | ✔ |
-| Time-limited presigned access | ✔ |
-| Direct to S3 uploads (no backend file handling) | ✔ |
-| Full audit logging in DynamoDB | ✔ |
-| Provisioned with Terraform | ✔ |
-| CLI testing with curl | ✔ |
-| Least-privilege IAM | ✔ |
+| Feature |
+|---|
+| Cognito authentication |
+| Time-limited presigned access |
+| Direct to S3 uploads (no backend file handling) |
+| Full audit logging in DynamoDB |
+| Provisioned with Terraform |
+| CLI testing with curl |
+| Least-privilege IAM |
 
 ---
 
