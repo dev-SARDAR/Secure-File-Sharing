@@ -187,3 +187,20 @@ Example DynamoDB record:
 | Auth | Cognito JWT validation |
 | API | HTTPS enforced, short-lived URLs |
 | Audit | Immutable log trail stored in DynamoDB |
+
+---
+
+## 8. To-Do
+
+| Status | Task |
+|---|---|
+| [ ] | Build a frontend UI (React or Next.js) for file upload and download |
+| [ ] | Store file metadata in DynamoDB (size, type, timestamps) |
+| [ ] | Add role-based access control (RBAC) for admin and standard users |
+| [ ] | Add a secure file deletion endpoint with audit logging |
+| [ ] | Add lifecycle policies to auto-expire or archive old files |
+| [ ] | Add CI/CD pipeline using GitHub Actions |
+| [ ] | Implement rate limiting and throttling on API Gateway |
+| [ ] | Improve structured logging and error handling |
+| [ ] | Add optional analytics dashboard for file access history |
+| [ ] | Add a short demo video and improve documentation |
